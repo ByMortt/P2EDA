@@ -1,0 +1,10 @@
+void swap(int* a, int* b);
+void printArray(int arr[],int size);
+void printSubArray(int arr[],int low, int high);
+void llenarArreglo(int arr[], int n);
+int partition (int arr[], int low, int high,int *comparisons,int *assignments);
+void Heapify(int* A, int i, int size,int *assignments);
+void BuildHeap(int* A, int size,int *assignments);
+void merge(int arr[], int l, int m, int r);
+int getMax(int arr[], int n);
+void countSort(int arr[], int n, int exp, int *comparisons, int *assignments);
